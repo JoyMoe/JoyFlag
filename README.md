@@ -4,6 +4,10 @@ Flag icon by JoyMoe
 A collection of all country flags in SVG (Circle).
 
 ## Usage
+First, add the css into your html.
+```html
+<link rel="stylesheet" href="css/joyflag.css">
+```
 
 For using the flags inline with text add the classes `.joyflag` and
 `.joyflag-xx` (where `xx` is the
