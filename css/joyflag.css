@@ -1,0 +1,56 @@
+.joyflag-background {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.joyflag {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1em;
+  line-height: 1em;
+}
+.joyflag:before {
+  content: "\00a0";
+}
+.joyflag-cn {
+  background-image: url(../flags/cn.svg);
+}
+.joyflag-hk {
+  background-image: url(../flags/hk.svg);
+}
+.joyflag-jp {
+  background-image: url(../flags/jp.svg);
+}
+.joyflag-mo {
+  background-image: url(../flags/mo.svg);
+}
+.joyflag-tw {
+  background-image: url(../flags/tw.svg);
+}
+.joyflag-kr {
+  background-image: url(../flags/kr.svg);
+}
+.joyflag-kp {
+  background-image: url(../flags/kp.svg);
+}
+.joyflag-us {
+  background-image: url(../flags/us.svg);
+}
+.joyflag-my {
+  background-image: url(../flags/my.svg);
+}
+.joyflag-np {
+  background-image: url(../flags/np.svg);
+}
+.joyflag-sg {
+  background-image: url(../flags/sg.svg);
+}
+.joyflag-gb {
+  background-image: url(../flags/gb.svg);
+}
+.joyflag-de {
+  background-image: url(../flags/de.svg);
+}
