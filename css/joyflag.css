@@ -13,7 +13,10 @@
   line-height: 1em;
 }
 .joyflag:before {
-  content: "\00a0";
+  content: "";
+}
+.joyflag-global {
+  background-image: url(../flags/global.svg);
 }
 .joyflag-cn {
   background-image: url(../flags/cn.svg);
@@ -21,7 +24,8 @@
 .joyflag-hk {
   background-image: url(../flags/hk.svg);
 }
-.joyflag-jp {
+.joyflag-jp,
+.joyflag-ja {
   background-image: url(../flags/jp.svg);
 }
 .joyflag-mo {
@@ -36,7 +40,8 @@
 .joyflag-kp {
   background-image: url(../flags/kp.svg);
 }
-.joyflag-us {
+.joyflag-us,
+.joyflag-en {
   background-image: url(../flags/us.svg);
 }
 .joyflag-my {
@@ -53,7 +58,4 @@
 }
 .joyflag-de {
   background-image: url(../flags/de.svg);
-}
-.joyflag-ca {
-  background-image: url(../flags/ca.svg);
 }
